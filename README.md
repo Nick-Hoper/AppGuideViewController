@@ -2,9 +2,10 @@
 一种快速集成引导图的控件
 #前言
 App开发，为了给用户更好的体验，我们都会在首次安装的时候，增加引导图。引导图的设计有很多方式，本文接下来就介绍一种快速集成引导图的方式。先看看效果：
-![1.gif](http://upload-images.jianshu.io/upload_images/6618716-34bd48bcb7fdcffb.gif?imageMogr2/auto-orient/strip)
+查看我的简书：http://www.jianshu.com/p/bbf55559ce41
 
 #核心方法
+
 1、提供图片数组、两个点击按钮名称、背景颜色的定制
 
 self.guideViewController = AppGuideViewController(images: coverImageNames,
